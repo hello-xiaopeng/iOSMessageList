@@ -64,6 +64,7 @@ public class iOSMessageList extends ListView {
 //                                startDuration = 400;
 //                                endDuration = 600;
                             }
+                            if (translation <= 4) translation = 4;
 
                             if (isScrollToUp) {
                                 translation = translation * ratioUp;
